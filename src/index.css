@@ -1,0 +1,38 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: default;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input {
+  outline: none;
+  background-color: transparent;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  font-size: 20px;
+  text-align: center;
+  cursor: text;
+}
+button {
+  outline: none;
+  background-color: transparent;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+  cursor: pointer;
+}
+
+a,
+li,
+ul {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
