@@ -2,7 +2,8 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   cursor: default;
   box-sizing: border-box;
-  margin: 0;
+  margin: 2rem;
+  text-align: center;
 }
 
 code {
