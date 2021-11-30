@@ -10,10 +10,8 @@ function App() {
     authService.onAuthStateChanged((user) => {
       if (user) {
         setLoggedIn(true);
-        console.log(user, '1true userstate');
       } else {
         setLoggedIn(false);
-        console.log(user, '2 false userstate');
       }
       setInit(true);
     });

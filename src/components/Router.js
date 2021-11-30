@@ -13,7 +13,6 @@ const Router = ({loggedIn}) => {
         {loggedIn && <Route path="/profile" element={<Profile />} />}
         <Route path="/*" element={<Navigate replace to="/" />} />
       </Routes>
-      <footer>asdjlkaså</footer>
     </BrowserRouter>
   );
 };
