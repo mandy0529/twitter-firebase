@@ -37,7 +37,9 @@
     ]
   },
   "devDependencies": {
+    "@material-ui/core": "^4.12.3",
     "firebase": "^8.8.0",
+    "react-flip-move": "^3.0.4",
     "styled-components": "^5.3.3"
   }
 }

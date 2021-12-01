@@ -2,8 +2,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   cursor: default;
   box-sizing: border-box;
-  margin: 2rem;
-  text-align: center;
+  margin: 2rem 5rem;
 }
 
 code {
@@ -12,21 +11,16 @@ code {
 }
 
 input {
-  outline: none;
   background-color: transparent;
   text-decoration: none;
   list-style: none;
-  border: none;
-  font-size: 20px;
   text-align: center;
   cursor: text;
 }
 button {
-  outline: none;
   background-color: transparent;
   text-decoration: none;
   list-style: none;
-  border: none;
   cursor: pointer;
 }
 
@@ -36,4 +30,19 @@ ul {
   text-decoration: none;
   color: black;
   cursor: pointer;
+}
+
+.message {
+  padding: 10px;
+  margin: 5px;
+  width: fit-content;
+  font-weight: bold;
+}
+.message.isMine {
+  background: #0b81ff;
+  color: white;
+  margin-left: auto;
+}
+.message.isYOurs {
+  background: #e9e9eb;
 }
