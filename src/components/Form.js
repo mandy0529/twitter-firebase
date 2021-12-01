@@ -42,7 +42,7 @@ const Form = () => {
 
   return (
     <Wrapper>
-      <h1>Facebook Messenger</h1>
+      <h1>facebook Messenger</h1>
       {name && <h2> " Welcome {name} "</h2>}
 
       <form onSubmit={handleSubmit}>
