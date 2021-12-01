@@ -38,7 +38,7 @@ const Form = () => {
 
   useEffect(() => {
     setName(prompt('Set your nickname'));
-  }, [name]);
+  }, []);
 
   return (
     <Wrapper>
