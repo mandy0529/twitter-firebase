@@ -39,8 +39,8 @@ ul {
   font-weight: bold;
 }
 .message.isMine {
-  background: #0b81ff;
-  color: white;
+  background: #dfe7fd;
+  color: black;
   margin-left: auto;
 }
 .message.isYOurs {
